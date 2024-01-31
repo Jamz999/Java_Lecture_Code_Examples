@@ -1,6 +1,6 @@
 package org.example.week0_variables;
 
-public class StringEscapeCharacters {
+public class EscapeCharacters {
     public static void main(String[] args) {
         // \" adds the " character without causing syntax errors.
         String message = "This class is \"Java Programming\"!";
