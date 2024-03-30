@@ -1,4 +1,4 @@
-package org.example.week8_Java_GUI.currency_converter;
+package org.example.week8_java_gui.currency_converter;
 
 import javax.swing.*;
 import java.awt.*;

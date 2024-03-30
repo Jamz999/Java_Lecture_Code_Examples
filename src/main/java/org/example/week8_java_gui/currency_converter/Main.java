@@ -1,4 +1,4 @@
-package org.example.week8_Java_GUI.currency_converter;
+package org.example.week8_java_gui.currency_converter;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.week8_Java_GUI.HelloGUI;
+package org.example.week8_java_gui.HelloGUI;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
