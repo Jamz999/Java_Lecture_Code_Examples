@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java_Lecture_Code_Examples" />
+        <module name="JavaLectureCodeExamples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java_Lecture_Code_Examples" target="1.21" />
+      <module name="Java_Lecture_Code_Examples" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
