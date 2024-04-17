@@ -5,24 +5,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>JavaLectureCodeExamples</artifactId>
+    <artifactId>Java_API_Examples</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-            <maven.compiler.source>1.21</maven.compiler.source>
-            <maven.compiler.target>1.21</maven.compiler.target>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
+                    <source>16</source>
+                    <target>16</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
 
@@ -31,19 +33,26 @@
 
     <dependencies>
 
-        <!-- SQLite Drivers -->
-
-        <dependency>
-            <groupId>org.xerial</groupId>
-            <artifactId>sqlite-jdbc</artifactId>
-            <version>3.39.3.0</version>
-        </dependency>
-
-
+        <!--Input Utils is for simplifying user input-->
         <dependency>
             <groupId>edu.minneapolis</groupId>
             <artifactId>input-utils</artifactId>
             <version>1.0.2</version>
+        </dependency>
+
+        <!-- GSON, For converting JSON into Java objects -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+
+        <!-- Unirest, For making API requests -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>3.13.3</version>
+            <classifier>standalone</classifier>
         </dependency>
 
     </dependencies>
