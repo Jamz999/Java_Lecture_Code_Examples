@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class TriangleProblem {
 
-    private static final String COLORS [] = {
+    private static final String[] COLORS = {
             "red",
             "green",
             "blue"
